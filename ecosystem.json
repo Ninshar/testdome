@@ -1,0 +1,28 @@
+{
+	"apps":[
+		{
+			"name":"testdome",
+			"script":"app.js",
+			"env": {
+				"COMMON_VARIABLE": "true"
+			},
+			"env_production": {
+				"NODE_ENV": "production"
+			}
+		}
+	],
+	"deploy": {
+		"production": {
+			"user": "root",
+			"host": ["121.196.194.41"],
+			"port": "22",
+			"ref": "origin/master",
+			"repo": "git@github.com:Ninshar/testdome.git",
+			"path": "/www/website/production",
+			"ssh_options": "StrictHostKeyChecking=no",
+			"env": {
+				"NODE_ENV":"production"
+			}
+		}
+	}
+}
