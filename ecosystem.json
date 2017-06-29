@@ -14,7 +14,7 @@
 	"deploy": {
 		"production": {
 			"user": "root",
-			"host": ["121.196.194.41"],
+			"host": ["106.15.226.111"],
 			"port": "22",
 			"ref": "origin/master",
 			"repo": "git@github.com:Ninshar/testdome.git",
