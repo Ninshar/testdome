@@ -13,9 +13,9 @@
 	],
 	"deploy": {
 		"production": {
-			"user": "root",
-			"host": ["106.15.226.111"],
-			"port": "22",
+			"user": "liangzi",
+			"host": ["120.77.83.65"],
+			"port": "39999",
 			"ref": "origin/master",
 			"repo": "git@github.com:Ninshar/testdome.git",
 			"path": "/www/website/production",
